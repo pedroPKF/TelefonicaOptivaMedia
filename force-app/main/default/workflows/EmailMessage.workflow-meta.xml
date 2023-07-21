@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>UpdateField</fullName>
+        <field>EmailsSent__c</field>
+        <formula>IF(!ISPICKVAL(Parent.Status , &apos;Closed&apos;),
+	IF(ISBLANK(Parent.EmailsSent__c), 1, Parent.EmailsSent__c+1),
+	Parent.EmailsSent__c
+)</formula>
+        <name>UpdateField</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <rules>
+        <fullName>Email message sent</fullName>
+        <actions>
+            <name>UpdateField</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>EmailMessage.Status</field>
+            <operation>equals</operation>
+            <value>Enviado</value>
+        </criteriaItems>
+        <description>Evaluate the rule when a record is created, and any time it’s edited to subsequently meet criteria</description>
+        <failedMigrationToolVersion>238.10.8</failedMigrationToolVersion>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

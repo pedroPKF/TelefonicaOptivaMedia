@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <botMlDomain>
+        <label>BotDos</label>
+        <mlIntents>
+            <developerName>Answer_Automation</developerName>
+            <label>Respuestas de artículos</label>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Confused</developerName>
+            <label>Confundido</label>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Dialogo</developerName>
+            <label>Dialogo</label>
+            <mlIntentUtterances>
+                <language>es</language>
+                <utterance>adicionalmente puede disponer de una línea móvil sin cuota</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <language>es</language>
+                <utterance>¿Que servicios adicionales ofrece?</utterance>
+            </mlIntentUtterances>
+            <relatedMlIntents>
+                <relatedMlIntent>Art_culos_de_conocimiento.adicionalmente_puede_disponer_de_una_l_nea_m_vil_sin_cuota</relatedMlIntent>
+            </relatedMlIntents>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Dialogo2</developerName>
+            <label>Dialogo2</label>
+            <mlIntentUtterances>
+                <language>es</language>
+                <utterance>¿puede ser gratuido?</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <language>es</language>
+                <utterance>¿puede ser gratuito?</utterance>
+            </mlIntentUtterances>
+            <relatedMlIntents>
+                <relatedMlIntent>Art_culos_de_conocimiento.Es_gratuido</relatedMlIntent>
+            </relatedMlIntents>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Main_Menu</developerName>
+            <label>Menú principal</label>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Primera_entrada</developerName>
+            <label>Primera entrada</label>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Transfer_To_Agent</developerName>
+            <label>Transferir a un agente</label>
+            <mlIntentUtterances>
+                <language>es</language>
+                <utterance>agente</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <language>es</language>
+                <utterance>me puedes pasar a un agente</utterance>
+            </mlIntentUtterances>
+            <mlIntentUtterances>
+                <language>es</language>
+                <utterance>¿me puedes pasar a un agente?</utterance>
+            </mlIntentUtterances>
+        </mlIntents>
+        <mlSlotClasses>
+            <dataType>Text</dataType>
+            <developerName>Email</developerName>
+            <extractionRegex>\b\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}\b</extractionRegex>
+            <extractionType>Pattern</extractionType>
+            <label>Email Ejemplo</label>
+        </mlSlotClasses>
+        <mlSlotClasses>
+            <dataType>Text</dataType>
+            <developerName>Lista_Ejemplo</developerName>
+            <extractionType>Value</extractionType>
+            <label>Lista Ejemplo</label>
+            <mlSlotClassValues>
+                <synonymGroups>
+                    <languages>es</languages>
+                    <terms>Respuesta de Articulo</terms>
+                </synonymGroups>
+                <value>Respuesta de Artículo</value>
+            </mlSlotClassValues>
+            <mlSlotClassValues>
+                <synonymGroups>
+                    <languages>es</languages>
+                    <terms>b</terms>
+                </synonymGroups>
+                <value>2</value>
+            </mlSlotClassValues>
+            <mlSlotClassValues>
+                <synonymGroups>
+                    <languages>es</languages>
+                    <terms>a</terms>
+                </synonymGroups>
+                <value>1</value>
+            </mlSlotClassValues>
+        </mlSlotClasses>
+        <name>BotDos</name>
+    </botMlDomain>
+    <botUser>soportepkfattest@pkf-attest.es.uat</botUser>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.ChatKey</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Text</dataType>
+        <developerName>ChatKey</developerName>
+        <label>Tecla Chat</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.ContactId</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>ContactId</developerName>
+        <label>Id. de Contacto</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.LiveChatVisitorId</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>EndUserId</developerName>
+        <label>Id. de Usuario final</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.Body</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Text</dataType>
+        <developerName>Parametro</developerName>
+        <label>Parametro</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.Id</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>RoutableId</developerName>
+        <label>Id. enrutable</label>
+    </contextVariables>
+    <conversationChannelProviders>
+        <agentRequired>false</agentRequired>
+        <chatButtonName>ATC_Group</chatButtonName>
+    </conversationChannelProviders>
+    <description>Un bot desde cero.</description>
+    <label>BotDos</label>
+    <logPrivateConversationData>false</logPrivateConversationData>
+    <richContentEnabled>false</richContentEnabled>
+</Bot>

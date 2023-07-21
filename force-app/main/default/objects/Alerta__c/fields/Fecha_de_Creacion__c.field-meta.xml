@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fecha_de_Creacion__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(LEN(TEXT(DAY(DATEVALUE( CreatedDate )))) = 1 ,&apos;0&apos;+TEXT(DAY(DATEVALUE( CreatedDate )))+&apos;/&apos;,TEXT(DAY(DATEVALUE( CreatedDate )))+&apos;/&apos;)+
+If(LEN(TEXT(MONTH(DATEVALUE( CreatedDate )))) = 1 ,&apos;0&apos;+TEXT(MONTH(DATEVALUE( CreatedDate )))+&apos;/&apos;,TEXT(MONTH(DATEVALUE( CreatedDate )))+&apos;/&apos;)+
+TEXT(YEAR(DATEVALUE( CreatedDate )))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Fecha de Creación</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

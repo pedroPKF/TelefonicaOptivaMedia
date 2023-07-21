@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reclamaciones_promo_alta</fullName>
+    <active>true</active>
+    <businessProcess>Reclamaciones promo alta</businessProcess>
+    <label>Reclamaciones promo alta</label>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario privado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulario publico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Razon_de_cierre__c</picklist>
+        <values>
+            <fullName>Cierre automático</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente no responde</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No es incidencia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resuelta Consulta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resuelta incidencia</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subtype__c</picklist>
+        <values>
+            <fullName>Anulación de alta con correo electrónico%2FBaja de usuarios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente reclama importes por incidencia en el servicio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente solicita cambio de tipo impositivo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente solicita devolución de importes por baja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicidad del DNI en el sistema o no coinciden el nombre y el DNI indicados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error en los códigos de tarjetas regalo Movistar%2BLite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuevo código para los clientes de Contrato Movil que incluyen el servicio en la tarifa</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Reclamaciones promo alta</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

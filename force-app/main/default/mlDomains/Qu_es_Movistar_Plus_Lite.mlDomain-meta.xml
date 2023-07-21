@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MlDomain xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Qué es Movistar Plus+ Lite</label>
+    <mlIntents>
+        <developerName>Que_es_Movistar_Plus_Lite</developerName>
+        <label>Que es Movistar Plus + Lite</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>Que es Movistar Plus + Lite</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>que es</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>conocer</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>que hace movistar plus</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>que hace movistar lite</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>que es movistar lite</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>ayuda contratación</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>ayuda baja</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>canales movistar +</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>que hace lite</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>canales movistar lite</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>que hace +</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>que es lite</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>peliculas</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>que es moviestar</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>Ayuda</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>canales lite</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>cabales movistar plus</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>series</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>deportes</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlSlotClasses>
+        <dataType>Text</dataType>
+        <developerName>Que_es_Movistar_Plus_Lite</developerName>
+        <extractionRegex>Que es movistar + lite</extractionRegex>
+        <extractionType>Pattern</extractionType>
+        <label>Que es Movistar Plus + Lite</label>
+    </mlSlotClasses>
+</MlDomain>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clientes_creados_este_mes</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>DNI__c</columns>
+    <columns>PC_EMAIL</columns>
+    <columns>PC_PHONE3</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <columns>email_account__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>8/1/2022 12:00 AM</value>
+    </filters>
+    <label>Clientes creados este mes</label>
+</ListView>

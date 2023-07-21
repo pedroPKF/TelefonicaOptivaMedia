@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bloqueo_modificacion_Nombre_Agente_ATC</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(CONTAINS($Profile.Name, &apos;Agente ATC&apos;) &amp;&amp;
+(ISCHANGED( FirstName ) || ISCHANGED( LastName ) || ISCHANGED( MiddleName ) || ISCHANGED( Salutation )), true, false)</errorConditionFormula>
+    <errorMessage>No dispone de los permisos necesarios para modificar el nombre.</errorMessage>
+</ValidationRule>

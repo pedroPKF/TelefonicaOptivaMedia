@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!--
+    <types>
+        <members>Correo</members>
+        <name>QueueRoutingConfig</name>
+    </types>
+    <types>
+        <members>Correo</members>
+        <members>EnEspera</members>
+        <name>Queue</name>
+    </types>-->
+    <types>
+        <members>Factura__c</members> 
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Individual-es</members>
+        <members>Historico_Individual__c-es</members>
+        <members>Account-es</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>AlertTrigger</members>
+        <members>AccountTrigger</members>
+        <members>ContractTrigger</members>
+        <members>Historico_Individual_trigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>chatMessage</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>AccountTriggerHandler</members>
+        <members>AccountTriggerHelper</members>
+        <members>AccountTriggerTest</members>
+        <members>AlertTriggerHelper</members>
+        <members>AlertTriggerHandler</members>
+        <members>BatchContract</members>
+        <members>BatchContractTest</members>
+        <members>CheckRecursive</members>
+        <members>Comprobar_Correo_Middleware</members>
+        <members>Comprobar_Correo_Middleware_test</members>
+        <members>ContractTriggerHandler</members>
+        <members>ContractTriggerHelper</members>
+        <members>ContractTriggerTest</members>
+        <members>EmailServiceClass</members>
+        <members>EmailServiceClassTest</members>
+        <members>ITriggerHandler</members>
+        <members>LlamadaMock</members>
+        <members>LlamadaMarketingCloud</members>
+        <members>LlamadaMarketingCloudTest</members>
+        <members>Llamada_Conexion_Middleware</members>
+        <members>Llamada_Conexion_Middleware_test</members>
+        <members>Llamada_Conexion_Middleware_util</members>
+        <members>LlamadaMock_LlamadaMarketingCloud</members>
+        <members>LlamadaMock_MiddlewareMethod</members>
+        <members>HistoricoIndividualTriggerHandler</members>
+        <members>HistoricoIndividualHelper</members>
+        <members>TriggerDispatcher</members>
+        <members>Insertar_ficheros_caso</members>
+        <members>Insertar_ficheros_caso_test</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>EmailMessage</members>
+        <name>Workflow</name>
+    </types>
+    <types>
+        <members>EmailMessage.UpdateField</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>EmailMessage.Email message sent</members>
+        <name>WorkflowRule</name>
+    </types>
+    <types>
+        <members>Case-Incidencia acceso al contenido</members>
+        <members>Case-Incidencia acceso cliente</members>
+        <members>Case-Incidencia proceso alta</members>
+        <members>Case-Incidencia proceso baja</members>
+        <members>Case-Info gestión de los datos del cliente</members>
+        <members>Case-Info oferta comercial</members>
+        <members>Case-Info proceso alta</members>
+        <members>Case-Info proceso baja</members>
+        <members>Case-Reclamaciones factura</members>
+        <members>Case-Reclamaciones promo alta</members>
+        <members>Account-Account Layout</members>
+        <members>Lead-Lead Layout</members>
+        <members>Contract-Contract Layout</members>
+        <members>Individual-Individual Layout</members>
+        <members>Alerta__c-Formato Alerta</members>
+        <members>Historico_Individual__c-Formato Histórico Individual</members>
+        <members>PersonAccount-Formato de cuenta personal</members>
+        <members>Transaction__c-Formato Transacción</members>
+        <members>Producto_Contrato__c-Producto Contrato Layout</members>
+        <members>Product2-Product Layout</members>
+        <members>Billing_plan__c-Plan de pago Layout</members>
+        <members>Knowledge__kav-Lightning Knowledge FAQ Layout</members>
+        <members>Knowledge__kav-Knowledge Layout</members>
+        <members>TVOD__c-TVOD Layout</members>
+        <members>Factura__c-Factura Layout</members>
+        <members>Factura_line_item__c-Factura line item Layout</members>
+        <members>Facturacion__c-Facturacion Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Movistar_Lite</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <!--<members>Case.Cerrar_Caso</members>
+        <members>Account.Email_Account</members>
+        <members>Contract.Email_Contract</members>
+        <members>Case.Case</members>
+        <members>Account.Nuevo_Caso_2</members>
+        <members>Contract.Nuevo_Caso</members>-->
+        <members>*</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>unfiled$public/Movistar_Now_Mail_registro_Case_1664465316558</members>
+        <members>unfiled$public/Movistar_Now_Mail_registro_Contract_1664465245957</members>
+        <members>unfiled$public/Movistar_Now_Mail_registro_2_1664464351371</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>Hist_rico_Individual_P_gina_de_registro</members>
+        <members>Account_Record_Page1</members>
+        <members>Case_Record_Page</members>
+        <members>Chat_Transcript_Record_Page1</members>
+        <members>LayoutContract</members>
+        <members>Lead_Record_Page</members>
+        <members>Persona_P_gina_de_registro</members>
+        <members>Persona_sin_Hist_rico</members>
+        <members>Transacci_n_Record_Page</members>
+        <members>Alerta_Record_Page1</members>
+        <members>Producto_Contrato1</members>
+        <members>Campa_a_P_gina_de_registro</members>
+        <members>Plan_de_pago_Record_Page</members>
+        <members>Product_Record_Page</members>
+        <members>TVOD_Record_Page</members>
+        <members>Factura_Record_Page</members>
+        <members>Factura_line_item_Record_Page</members>
+        <members>Getting_Started_Home</members>
+        <name>Flexipage</name>
+    </types>
+    <types>
+        <members>Movistar_logo_negro</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>Administrador Personalizado</members>
+        <members>Agente ATC</members>
+        <members>Analytics Cloud Integration User</members>
+        <members>Analytics Cloud Security User</members>
+        <members>Chat Setup Flow Site Perfil</members>
+        <members>Chatter External User</members>
+        <members>Chatter Moderator User</members>
+        <members>Gestión de Movistarplus%2B Lite</members>
+        <members>Integration User</members>
+        <members>MarketingProfile</members>
+        <members>Perfil Supervisor</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <!--<members>Alerta__c</members>
+        <members>Case</members>
+        <members>Contract</members>
+        <members>Account</members>
+        <members>Lead</members>
+        <members>CaseMeta__mdt</members>
+        <members>Transaction__c</members>
+        <members>EmailMessage</members>
+        <members>Individual</members>
+        <members>Informacion_de_alertas__mdt</members>
+        <members>Clave_encriptacion__c</members>
+        <members>Historico_Individual__c</members>
+        <members>Product2</members> 
+        <members>Producto_Contrato__c</members>
+        <members>Parametro_middleware_Marketing__mdt</members>
+        <members>Entitlement</members>
+        <members>Billing_plan__c</members>
+        <members>Knowledge__kav</members>
+        <members>Campaign</members>
+        <members>Campaign_Product__c</members>
+        <members>Factura__c</members>
+        <members>Factura_line_item__c</members>
+        <members>TVOD__c</members>
+        <members>et4ae5__IndividualEmailResult__c</members>-->
+        <members>*</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>CaseOrigin</members>
+        <members>CaseStatus</members>
+        <members>LeadSource</members>
+        <members>CaseType</members>
+        <members>LeadStatus</members>
+        <members>Product2Family</members>
+        <!--<members>ContractStatus</members>-->
+        <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>Account_modify_Name</members>
+        <name>CustomPermission</name>
+    </types>
+    <types>
+        <members>Account_modify_name</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <!--<members>Parametro_middleware_Marketing.Parametros</members>-->
+        <members>Informacion_de_alertas.Abono_de_deuda_pendiente</members>
+        <members>Informacion_de_alertas.Baja_de_cliente</members>
+        <members>Informacion_de_alertas.Caducidad_del_metodo_de_pago</members>
+        <members>Informacion_de_alertas.Cambio_de_correo_electronico</members>
+        <members>Informacion_de_alertas.Compra_por_taquilla</members>
+        <members>Informacion_de_alertas.Metodo_de_pago_rechazado</members>
+        <members>Informacion_de_alertas.Modificacion_de_datos_personales</members>
+        <members>Informacion_de_alertas.Modificacion_del_medio_de_pago</members>
+        <members>Informacion_de_alertas.Reactivacion_de_la_suscripcion</members>
+        <members>Informacion_de_alertas.Recuperacion_de_cuenta</members>
+        <members>Informacion_de_alertas.Repudio</members>
+        <members>Informacion_de_alertas.Solicitud_de_baja</members>
+        <members>Informacion_de_alertas.Sospechosa_de_identidad_suplantada</members>
+        <members>CMTD__EnhancedRelatedList.ProductosContratados1</members>
+        <members>CMTD__EnhancedRelatedList.ProductosContratados2</members>
+        <members>CMTD__EnhancedRelatedList.ProductosContratados3</members>
+        <members>CMTD__EnhancedRelatedList.ProductosContratados4</members>
+        <members>CMTD__EnhancedRelatedList.ProductosContratados5</members>
+        <members>CMTD__EnhancedRelatedList.ProductosContratados6</members>
+        <members>CMTD__EnhancedRelatedList.ProductosContratados7</members>
+        <members>CMTD__EnhancedRelatedList.ProductosContratados8</members>
+        <members>CMTD__EnhancedRelatedList.ProductosContratados9</members>
+        <members>CMTD__EnhancedRelatedList.ProductosContratados9A</members>
+        <members>CMTD__EnhancedRelatedList.ProductosContratados9B</members>
+        <members>CMTD__EnhancedRelatedList.TVOD1</members>
+        <members>CMTD__EnhancedRelatedList.TVOD2</members>
+        <members>CMTD__EnhancedRelatedList.TVOD3</members>
+        <members>CMTD__EnhancedRelatedList.TVOD4</members>
+        <members>CMTD__EnhancedRelatedList.TVOD5</members>
+        <members>CMTD__EnhancedRelatedList.TVOD6</members>
+        <members>CMTD__EnhancedRelatedList.TVOD7</members>
+        <members>CMTD__EnhancedRelatedList.TVOD8</members>
+        <members>CMTD__EnhancedRelatedList.TVOD9</members>
+        <members>CMTD__EnhancedRelatedList.TVOD9A</members>
+        <members>CMTD__EnhancedRelatedList.Facturas1</members>
+        <members>CMTD__EnhancedRelatedList.Facturas2</members>
+        <members>CMTD__EnhancedRelatedList.Facturas3</members>
+        <members>CMTD__EnhancedRelatedList.Facturas4</members>
+        <members>CMTD__EnhancedRelatedList.Facturas5</members>
+        <members>CMTD__EnhancedRelatedList.Facturas6</members>
+        <members>CMTD__EnhancedRelatedList.Facturas7</members>
+        <members>CMTD__EnhancedRelatedList.Facturas8</members>
+        <members>CMTD__EnhancedRelatedList.Facturas9</members>
+        <members>CMTD__EnhancedRelatedList.Facturas9A</members>
+        <members>CMTD__EnhancedRelatedList.Facturas9B</members>
+        <members>CMTD__EnhancedRelatedList.Facturas9C</members>
+        <members>CMTD__EnhancedRelatedList.Facturas9D</members>
+        <members>CMTD__EnhancedRelatedList.CobrosFallidos1</members>
+        <members>CMTD__EnhancedRelatedList.CobrosFallidos2</members>
+        <members>CMTD__EnhancedRelatedList.CobrosFallidos3</members>
+        <members>CMTD__EnhancedRelatedList.CobrosFallidos4</members>
+        <members>CMTD__EnhancedRelatedList.CobrosFallidos5</members>
+        <members>CMTD__EnhancedRelatedList.CobrosFallidos6</members>
+        <members>CMTD__EnhancedRelatedList.CobrosFallidos7</members>
+        <members>CMTD__EnhancedRelatedList.CobrosFallidos8</members>
+        <members>CMTD__EnhancedRelatedList.CobrosFallidos9</members>
+        <members>CMTD__EnhancedRelatedList.CobrosFallidos9A</members>
+        <members>CMTD__EnhancedRelatedList.CobrosFallidos9B</members>
+        <members>CMTD__EnhancedRelatedList.CobrosFallidos9C</members>
+        <members>CMTD__EnhancedRelatedList.CobrosFallidos9D</members>
+        <members>CMTD__EnhancedRelatedList.CobrosFallidos9E</members>
+        <members>CMTD__EnhancedRelatedList.Comunicacion1</members>
+        <members>CMTD__EnhancedRelatedList.Comunicacion2</members>
+        <members>CMTD__EnhancedRelatedList.Comunicacion3</members>
+        <members>CMTD__EnhancedRelatedList.Comunicacion4</members>
+        <members>CMTD__EnhancedRelatedList.Comunicacion5</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>PersonAccount.Person_Account_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>CaseOrigin-es</members>
+        <members>ContractStatus-es</members>
+        <members>LeadStatus-es</members>
+        <name>StandardValueSetTranslation</name>
+    </types>
+    <types>
+        <members>Estados_de_consentimientos</members>
+        <members>Canal_Individual</members>
+        <members>Accion_de_Consentimiento</members>
+        <members>Reason_de_Consentimiento</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>Proceso_Lead_Cuenta_Contratos</members>
+        <members>Case_Asigna_Tipo_segun_Record_Type</members>
+        <members>INDIVIDUAL_CREAR_HISTORICO</members>
+        <members>Alertas_Account</members>
+        <members>Contract</members>
+        <members>Cambiar_RecordType_Casos</members>
+        <members>Transaccion</members>
+        <members>Alerta_Actualizar_descripcion</members>
+        <members>Comprueba_diariamente_casos_para_cerrar</members>
+        <members>cambiar_tipo_de_caso_v3</members>
+        <members>Case_Crear_Alerta</members>
+        <members>Contract_Duplicated_Active_Email</members>
+        <members>Producto_Contrato_Alertas</members>
+        <members>Intro_Bot_Get_Pre_Chat_Context_v2</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Autorizacion_Marketing_Cloud</members>
+        <members>Middleware</members>
+        <members>Rest_Marketing_Cloud</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <types>
+        <members>Nuevo</members>
+        <members>En curso</members>
+        <members>En espera</members>
+        <name>MilestoneType</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Role</name>
+    </types>
+    <!--<types>
+        <members>consulta gestión de los datos del cliente_v3</members>
+        <members>consulta de oferta comercial_v2</members>
+        <members>consulta de proceso de alta_v2</members>
+        <members>consulta de proceso de baja_v2</members>
+        <members>incidencia acceso al contenido_v2</members>
+        <members>incidencia acceso cliente_v2</members>
+        <members>incidencia proceso alta_v2</members>
+        <members>incidencia proceso baja_v2</members>
+        <members>reclamaciones factura_v2</members>
+        <members>reclamaciones promo alta_v2</members>
+        <name>EntitlementProcess</name>
+    </types>-->
+    <!--<types>
+        <members>Case</members>
+        <name>Workflow</name>
+    </types>
+    <types>
+        <members>Case.Cambio_Escalado</members>
+        <members>Case.ChangePriorityToHigh</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Case.Despues</members>
+        <members>Case.Tiempo_de_Caso_Excedido</members>
+        <name>WorkflowTask</name>
+    </types>-->
+    <version>55.0</version>
+</Package>

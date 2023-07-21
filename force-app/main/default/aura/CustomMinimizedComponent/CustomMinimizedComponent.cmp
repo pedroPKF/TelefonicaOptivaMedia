@@ -1,0 +1,10 @@
+<aura:component implements="lightningsnapin:minimizedUI" description="Custom Minimized UI">
+    <aura:handler name="init" value="{!this}" action="{!c.onInit}"/>
+    <aura:attribute name="message" type="String" default="Chat with us!"/>
+    
+    <!-- For registering our minimized event handler and maximizing -->
+    <lightningsnapin:minimizedAPI aura:id="minimizedAPI"/>
+    <button onclick="{!c.handleMaximize}"  class="minimizedContainer">
+        {!v.message}
+    </button>  
+</aura:component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duplicated_Active_Email</fullName>
+    <active>true</active>
+    <description>Control para evitar la creación de contratos con el mismo correo electronico.</description>
+    <errorConditionFormula>Duplicated_Active_Email__c</errorConditionFormula>
+    <errorMessage>No es posible convertir el Lead. Ya existe un contrato activo con este correo electrónico.</errorMessage>
+</ValidationRule>

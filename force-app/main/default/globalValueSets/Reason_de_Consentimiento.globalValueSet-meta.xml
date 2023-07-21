@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Código Acción Comercial</fullName>
+        <default>false</default>
+        <label>Código Acción Comercial</label>
+    </customValue>
+    <customValue>
+        <fullName>ACN Alta cliente nuevo</fullName>
+        <default>false</default>
+        <label>ACN Alta cliente nuevo</label>
+    </customValue>
+    <customValue>
+        <fullName>LCC Liberación consentimiento cliente</fullName>
+        <default>false</default>
+        <label>LCC Liberación consentimiento cliente</label>
+    </customValue>
+    <customValue>
+        <fullName>MPC Modificación petición cliente</fullName>
+        <default>false</default>
+        <label>MPC Modificación petición cliente</label>
+    </customValue>
+    <customValue>
+        <fullName>MDC Modificación datos cliente</fullName>
+        <default>false</default>
+        <label>MDC Modificación datos cliente</label>
+    </customValue>
+    <customValue>
+        <fullName>BCT Baja cliente total</fullName>
+        <default>false</default>
+        <label>BCT Baja cliente total</label>
+    </customValue>
+    <customValue>
+        <fullName>RAC Reactivación cliente</fullName>
+        <default>false</default>
+        <label>RAC Reactivación cliente</label>
+    </customValue>
+    <customValue>
+        <fullName>MPB Modificación proceso batch</fullName>
+        <default>false</default>
+        <label>MPB Modificación proceso batch</label>
+    </customValue>
+    <masterLabel>Reason de Consentimiento</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

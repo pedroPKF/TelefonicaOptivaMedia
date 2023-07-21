@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>rarely</animationFrequency>
+    <developerName>Case_Path_Info_Oferta</developerName>
+    <isActive>true</isActive>
+    <masterLabel>Case Path Info Oferta</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>Info_oferta_comercial</recordTypeName>
+    <sobjectType>Case</sobjectType>
+    <targetField>Status</targetField>
+    <targetFieldChangeToValues>Closed</targetFieldChangeToValues>
+</AnimationRule>

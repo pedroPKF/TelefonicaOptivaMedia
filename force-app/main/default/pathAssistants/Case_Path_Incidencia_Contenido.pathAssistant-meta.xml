@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Case Path Incidencia Contenido</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Motivo_de_cierre__c</fieldNames>
+        <fieldNames>Razon_de_cierre__c</fieldNames>
+        <picklistValueName>Closed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Tiempo_en_espera__c</fieldNames>
+        <picklistValueName>On Hold</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Incidencia_acceso_al_contenido</recordTypeName>
+</PathAssistant>

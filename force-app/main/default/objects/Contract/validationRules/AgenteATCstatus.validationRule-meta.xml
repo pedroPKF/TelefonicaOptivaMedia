@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AgenteATCstatus</fullName>
+    <active>false</active>
+    <description>impide que el perfil de agenteATC pueda modificar el campo Status</description>
+    <errorConditionFormula>IF(CONTAINS($Profile.Name, &apos;Agente ATC&apos;)  &amp;&amp; ISCHANGED(Status), true, false)</errorConditionFormula>
+    <errorMessage>No se puede editar el campo del estado.</errorMessage>
+</ValidationRule>

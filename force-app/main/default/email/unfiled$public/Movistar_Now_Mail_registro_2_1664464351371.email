@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title></title>
+	<style type="text/css">.td-header-mv{
+		padding: 0px 0 0px 0;
+	}
+	.td-footer-mv{
+		align:center;padding: 0px 0 20px 0;
+	}
+	.div-footer-mv{
+		padding-top:10px;padding-bottom:9px;margin-top: 30px; background-color: #000; text-align:center;
+	}
+	.font1-mv{
+		border-top: 1px solid;color: #fff;margin: 10px;padding-top:25px;
+	}
+	.font2-mv{
+		border-top: 1px solid;color: #fff;margin: 10px;padding-top:38px;padding-bottom:9px;
+	}
+	</style>
+	<meta content="text/html; charset=iso-8859-1" />
+</head>
+<body style="height: auto; min-height: auto;"><font face="Arial, Helvetica, sans-serif" size="2" style="color:#FFFFFF">##REF:[{{{Account.Id}}}]##</font>
+<table align="center" cellpadding="0" cellspacing="0" width="600">
+	
+		<tr>
+			<td class="td-header-mv">
+			<div id="header"><img alt="cabecera Movistar Plus+ Lite" src="https://www.movistar.es/estaticos/img/es_ES/cabecera-email-mlite-new.png" /></div>
+			</td>
+		</tr>
+		<tr>
+			<td class="td-header-mv"></td>
+		</tr>
+		<tr>
+			<td class="td-footer-mv">
+			<div class="div-footer-mv"><font face="Arial, Helvetica, sans-serif" size="1" style="color:#fff">TELEFONICA DE ESPAÑA, S.A.U. Gran Vía 28. 28013 - Madrid</font>
+			<div class="font1-mv"><font face="Arial, Verdana, Helvetica, sans-serif" size="2"><a href="http://www.movistar.es/contratos" style="text-decoration: none;color:#fff;">Condiciones generales</a> <span style="color:#fff">|</span> <a href="http://www.movistar.es/particulares/centro-de-privacidad" style="text-decoration: none;color:#fff;">Política de privacidad</a> <span style="color:#fff">|</span> <a href="http://ver.movistarplus.es/ayuda/?help=1-1&amp;nv=2" style="text-decoration: none;color:#fff;">Ayuda</a> <span style="color:#fff;font-family: verdana;font-size: 12px;">| 1004</span> </font></div>
+
+			<div class="font2-mv"><img alt="Movistar Plus+" src="https://www.movistar.es/estaticos/imagenes/logo-movistarplus-new.png" /></div>
+			</div>
+			</td>
+		</tr>
+	
+</table>
+</body>
+</html>

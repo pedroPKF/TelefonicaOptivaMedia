@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_cliente_error__c</fullName>
+    <description>Se almacenará el motivo del error por el cual el cliente no ha quedado como suscriptor.</description>
+    <externalId>false</externalId>
+    <label>Motivo cliente error</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

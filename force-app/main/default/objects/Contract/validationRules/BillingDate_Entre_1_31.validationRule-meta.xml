@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BillingDate_Entre_1_31</fullName>
+    <active>false</active>
+    <errorConditionFormula>0 &lt; billing_day__c  &amp;&amp; billing_day__c  &lt; 32</errorConditionFormula>
+    <errorDisplayField>billing_day__c</errorDisplayField>
+    <errorMessage>Incorporar un día de mes apropiado</errorMessage>
+</ValidationRule>

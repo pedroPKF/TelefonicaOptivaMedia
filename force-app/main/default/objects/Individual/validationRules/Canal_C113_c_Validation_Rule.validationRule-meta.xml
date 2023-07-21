@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Canal_C113_c_Validation_Rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(CONTAINS($Profile.Name, &apos;Admin&apos;)),NOT($Profile.Name = &apos;Integration User&apos;), ISCHANGED(C113__c ), NOT(ISPICKVAL(Canal_C113__c  , &apos;OFICINA ATENCION COMERCIAL&apos;)), NOT(ISPICKVAL(Canal_C113__c  , &apos;OTROS&apos;)))</errorConditionFormula>
+    <errorDisplayField>Canal_C113__c</errorDisplayField>
+    <errorMessage>Solo puede escoger los valores &apos;Oficina Atención Comercial&apos; y &apos;Otros&apos;.</errorMessage>
+</ValidationRule>

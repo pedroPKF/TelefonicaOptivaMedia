@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Desactivar_Modificacion_SI_Caso_Cerrado</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+AND(
+NOT(ISNEW()),
+ISPICKVAL( PRIORVALUE(Status) , &apos;Closed&apos;)
+,
+ $Profile.Name &lt;&gt; &apos;Integration User&apos;
+
+), true, false)</errorConditionFormula>
+    <errorMessage>Case closed</errorMessage>
+</ValidationRule>

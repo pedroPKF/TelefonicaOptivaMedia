@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Tipo_Codigo__c</name>
+    <picklistValues>
+        <masterLabel>Código descuento</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tarjeta regalo</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,20 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    },
+    {
+      "path" : "force-app/main/default",
+      "package" : "Jenkins",
+      "versionName" : "Jenkins - Summer '22",
+      "versionNumber" : "1.0.0",
+      "default" : false
+    }
+  ],
+  "name": "MovistarLiteRepository",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "56.0",
+  "oauthLocalPort" : "1717"
+}

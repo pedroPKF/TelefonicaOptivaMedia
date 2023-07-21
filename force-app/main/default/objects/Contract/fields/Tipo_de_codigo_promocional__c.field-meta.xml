@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_codigo_promocional__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de codigo promocional</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Código descuento</fullName>
+                <default>false</default>
+                <label>Código descuento</label>
+            </value>
+            <value>
+                <fullName>Tarjeta regalo</fullName>
+                <default>false</default>
+                <label>Tarjeta regalo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

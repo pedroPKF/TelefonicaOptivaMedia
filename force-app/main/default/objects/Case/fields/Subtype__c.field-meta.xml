@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subtype__c</fullName>
+    <externalId>false</externalId>
+    <label>Subtype</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Duplicidad del DNI en el sistema o no coinciden el nombre y el DNI indicados</fullName>
+                <default>false</default>
+                <label>Duplicidad del DNI en el sistema o no coinciden el nombre y el DNI indicados</label>
+            </value>
+            <value>
+                <fullName>Cliente solicita cambio de tipo impositivo</fullName>
+                <default>false</default>
+                <label>Cliente solicita cambio de tipo impositivo</label>
+            </value>
+            <value>
+                <fullName>Cliente reclama importes por incidencia en el servicio</fullName>
+                <default>false</default>
+                <label>Cliente reclama importes por incidencia en el servicio</label>
+            </value>
+            <value>
+                <fullName>Error en los códigos de tarjetas regalo Movistar+Lite</fullName>
+                <default>false</default>
+                <label>Error en los códigos de tarjetas regalo Movistar+Lite</label>
+            </value>
+            <value>
+                <fullName>Nuevo código para los clientes de Contrato Movil que incluyen el servicio en la tarifa</fullName>
+                <default>false</default>
+                <label>Nuevo código para los clientes de Contrato Movil que incluyen el servicio en la tarifa</label>
+            </value>
+            <value>
+                <fullName>Anulación de alta con correo electrónico/Baja de usuarios</fullName>
+                <default>false</default>
+                <label>Anulación de alta con correo electrónico/Baja de usuarios</label>
+            </value>
+            <value>
+                <fullName>Cliente solicita devolución de importes por baja</fullName>
+                <default>false</default>
+                <label>Cliente solicita devolución de importes por baja</label>
+            </value>
+            <value>
+                <fullName>Contenido de Suscripción</fullName>
+                <default>false</default>
+                <label>Contenido de Suscripción</label>
+            </value>
+            <value>
+                <fullName>Alquiler</fullName>
+                <default>false</default>
+                <label>Alquiler</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Reclamaciones factura</controllingFieldValue>
+            <valueName>Cliente solicita cambio de tipo impositivo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reclamaciones factura</controllingFieldValue>
+            <valueName>Cliente reclama importes por incidencia en el servicio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reclamaciones promo alta</controllingFieldValue>
+            <valueName>Error en los códigos de tarjetas regalo Movistar+Lite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia proceso alta</controllingFieldValue>
+            <valueName>Duplicidad del DNI en el sistema o no coinciden el nombre y el DNI indicados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia proceso alta</controllingFieldValue>
+            <valueName>Nuevo código para los clientes de Contrato Movil que incluyen el servicio en la tarifa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia proceso alta</controllingFieldValue>
+            <valueName>Anulación de alta con correo electrónico/Baja de usuarios</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidencia proceso baja</controllingFieldValue>
+            <valueName>Cliente solicita devolución de importes por baja</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

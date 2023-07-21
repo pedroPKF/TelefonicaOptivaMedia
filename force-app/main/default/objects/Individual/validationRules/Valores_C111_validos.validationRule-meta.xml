@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valores_C111_validos</fullName>
+    <active>true</active>
+    <errorConditionFormula>CONTAINS($Profile.Name, &apos;Agente ATC&apos;) &amp;&amp; ISCHANGED( C111__c )  &amp;&amp; (NOT(ISPICKVAL(C111__c , &apos;Aceptado&apos;))  &amp;&amp; NOT(ISPICKVAL(C111__c , &apos;Rechazado&apos;)))</errorConditionFormula>
+    <errorDisplayField>C111__c</errorDisplayField>
+    <errorMessage>Solo puedes seleccionar valor Aceptado o Rechazado.</errorMessage>
+</ValidationRule>

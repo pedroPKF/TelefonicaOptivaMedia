@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agente_ACT_Permisos_Creacion</fullName>
+    <active>true</active>
+    <description>El Agente solo podrá crear casos de origen MANUAL</description>
+    <errorConditionFormula>IF(ISNEW() &amp;&amp; NOT(ISPICKVAL(Origin,&quot;Manual&quot;)) &amp;&amp; $Profile.Name ==&apos;Agente ATC&apos;  , TRUE, FALSE)</errorConditionFormula>
+    <errorDisplayField>Origin</errorDisplayField>
+    <errorMessage>Solo tiene permisos para crear casos de origen Manual</errorMessage>
+</ValidationRule>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MlDomain xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>REGISTRO Y SUSCRIPCION</label>
+    <mlIntents>
+        <developerName>Como_suscribirme</developerName>
+        <label>Como suscribirme</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>suscriptor</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>Suscribirme</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>como suscribirme</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>suscribirme</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>subscribirme</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>subscriptor</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>configurar suscripcion</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>documento para suscripcion</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>suscriptor</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>contrato ocasional</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>tennis</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>formula 1</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>ocasional</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>contrato subscriptor</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>cine</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>futbol</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>baloncesto</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>tenis</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>moto gp</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>caza</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>pesca</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>Crear_una_cuenta</developerName>
+        <label>Crear una cuenta</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>cuenta</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>contratacion</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>contratacion de cuenta</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>contrato</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>crear cuenta</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>quiero una cuenta nueva</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>contratacion cuenta</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>contrato ocasional</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>dar de alta</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>ayuda</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>que es una cuenta</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>permanencia</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>duracion</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>cuenta nueva</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>yuda</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>nueva</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>alta</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>cuenta movistar</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>dar de alta a una cuenta</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>contrato permanente</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>campaña</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlSlotClasses>
+        <dataType>Text</dataType>
+        <developerName>Como_suscribirme</developerName>
+        <extractionRegex>Como suscribirme</extractionRegex>
+        <extractionType>Pattern</extractionType>
+        <label>Como suscribirme</label>
+    </mlSlotClasses>
+</MlDomain>

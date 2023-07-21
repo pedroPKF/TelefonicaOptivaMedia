@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>VRU</fullName>
+        <default>false</default>
+        <label>VRU</label>
+    </customValue>
+    <customValue>
+        <fullName>COMUNICACION EN FACTURA</fullName>
+        <default>false</default>
+        <label>COMUNICACION EN FACTURA</label>
+    </customValue>
+    <customValue>
+        <fullName>COMUNICACION POR EMAIL</fullName>
+        <default>false</default>
+        <label>COMUNICACION POR EMAIL</label>
+    </customValue>
+    <customValue>
+        <fullName>COMUNICACION POR SMS</fullName>
+        <default>false</default>
+        <label>COMUNICACION POR SMS</label>
+    </customValue>
+    <customValue>
+        <fullName>OFICINA ATENCION COMERCIAL</fullName>
+        <default>false</default>
+        <label>OFICINA ATENCION COMERCIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>TELEFONICO</fullName>
+        <default>false</default>
+        <label>TELEFONICO</label>
+    </customValue>
+    <customValue>
+        <fullName>TIENDA</fullName>
+        <default>false</default>
+        <label>TIENDA</label>
+    </customValue>
+    <customValue>
+        <fullName>COL</fullName>
+        <default>false</default>
+        <label>COL</label>
+    </customValue>
+    <customValue>
+        <fullName>TV</fullName>
+        <default>false</default>
+        <label>TV</label>
+    </customValue>
+    <customValue>
+        <fullName>APP</fullName>
+        <default>false</default>
+        <label>APP</label>
+    </customValue>
+    <customValue>
+        <fullName>APP TV</fullName>
+        <default>false</default>
+        <label>APP TV</label>
+    </customValue>
+    <customValue>
+        <fullName>CARGA MASIVA</fullName>
+        <default>false</default>
+        <label>CARGA MASIVA</label>
+    </customValue>
+    <customValue>
+        <fullName>GDPR</fullName>
+        <default>false</default>
+        <label>GDPR</label>
+    </customValue>
+    <customValue>
+        <fullName>O2</fullName>
+        <default>false</default>
+        <label>O2</label>
+    </customValue>
+    <customValue>
+        <fullName>NT APP</fullName>
+        <default>false</default>
+        <label>NT APP</label>
+    </customValue>
+    <customValue>
+        <fullName>OTROS</fullName>
+        <default>false</default>
+        <label>OTROS</label>
+    </customValue>
+    <customValue>
+        <fullName>C360</fullName>
+        <default>false</default>
+        <label>C360</label>
+    </customValue>
+    <customValue>
+        <fullName>OF. AT. COM. EMAIL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OF. AT. COM. EMAIL</label>
+    </customValue>
+    <customValue>
+        <fullName>EMAIL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EMAIL</label>
+    </customValue>
+    <customValue>
+        <fullName>FECEDM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FECEDM</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMS</label>
+    </customValue>
+    <customValue>
+        <fullName>CARTA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CARTA</label>
+    </customValue>
+    <customValue>
+        <fullName>WEB</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WEB</label>
+    </customValue>
+    <customValue>
+        <fullName>CIRCULAR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CIRCULAR</label>
+    </customValue>
+    <masterLabel>Canal Individual</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Incidencia acceso al contenido</fullName>
+        <default>false</default>
+        <label>Incidencia acceso al contenido</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Incidencia acceso cliente</fullName>
+        <default>false</default>
+        <label>Incidencia acceso cliente</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Incidencia proceso alta</fullName>
+        <default>false</default>
+        <label>Incidencia proceso alta</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Incidencia proceso baja</fullName>
+        <default>false</default>
+        <label>Incidencia proceso baja</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consulta gestion de los datos del cliente</fullName>
+        <default>false</default>
+        <label>Consulta gestión de los datos del cliente</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consulta de oferta comercial</fullName>
+        <default>false</default>
+        <label>Consulta de oferta comercial</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consulta de proceso de baja</fullName>
+        <default>false</default>
+        <label>Consulta de proceso de baja</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consulta de proceso de alta</fullName>
+        <default>false</default>
+        <label>Consulta de proceso de alta</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reclamaciones factura</fullName>
+        <default>false</default>
+        <label>Reclamaciones factura</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reclamaciones promo alta</fullName>
+        <default>false</default>
+        <label>Reclamaciones promo alta</label>
+    </standardValue>
+</StandardValueSet>

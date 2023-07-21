@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validar_Pais_Spain</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(ISBLANK( BillingCountry ),AND(NOT(ISBLANK( BillingCountry )),  BillingCountry!=&apos;España&apos;, BillingCountry!= &apos;Spain&apos;))</errorConditionFormula>
+    <errorDisplayField>BillingCountry</errorDisplayField>
+    <errorMessage>El país debe ser España</errorMessage>
+</ValidationRule>

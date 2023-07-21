@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Chat_Transcript_Close_Case</members>
+        <members>Intro_Bot_Ha_pasado_a_un_Agente</members>
+        <name>Flow</name>
+    </types>
+    <version>57.0</version>
+</Package>

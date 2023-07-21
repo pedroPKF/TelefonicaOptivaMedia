@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EvitarCambioStatus</fullName>
+    <active>false</active>
+    <description>Evitar que se cambie de estado</description>
+    <errorConditionFormula>AND(
+     BypassValidation__c = true,
+    ISCHANGED( Status )
+    )</errorConditionFormula>
+    <errorMessage>No se puede cambiar el estado del contrato</errorMessage>
+</ValidationRule>

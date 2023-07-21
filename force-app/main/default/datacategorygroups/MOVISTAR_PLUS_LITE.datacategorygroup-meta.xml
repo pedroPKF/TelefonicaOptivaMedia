@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>CONOCE MOVISTAR PLUS+ LITE</label>
+            <name>conoce_movistar_plus_lite</name>
+        </dataCategory>
+        <dataCategory>
+            <label>REGISTRO Y SUSCRIPCION</label>
+            <name>registro_y_suscripcion</name>
+        </dataCategory>
+        <dataCategory>
+            <label>GESTIONAR MI CUENTA y MI SUSCRIPCION</label>
+            <name>gestionar_mi_cuenta_y_mi_suscripcion</name>
+        </dataCategory>
+        <dataCategory>
+            <label>VER MOVISTAR PLUS+ LITE</label>
+            <name>ver_movistar_plus_lite</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>MOVISTAR PLUS+ LITE</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Activate</masterLabel>
+        <translation>Activado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cancelled</masterLabel>
+        <translation>Cancelado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Draft</masterLabel>
+        <translation>Borrador</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In Approval Process</masterLabel>
+        <translation>En proceso de aprobación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pending cancel</masterLabel>
+        <translation>Pendiente de cancelación</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

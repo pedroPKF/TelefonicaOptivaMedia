@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C112__c</fullName>
+    <description>Datos de cliente para publicidad personalizada de Movistar y de terceros en TV (C112)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Datos de cliente para publicidad personalizada de Movistar y de terceros en TV (C112)</inlineHelpText>
+    <label>C112</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Estados_de_consentimientos</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>AccountTrigger</members>
+        <members>ContractTrigger</members>
+        <members>Historico_Individual_trigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Contract_Duplicated_Active_Email</members>
+        <members>INDIVIDUAL_CREAR_HISTORICO</members>
+        <members>Alertas_Account</members>
+        <members>Contract</members>
+        <members>Proceso_Lead_Cuenta_Contratos</members>
+        <members>Producto_Contrato_Alertas</members>
+        <members>Actulizo_cuenta_TVOD</members>
+        <members>Case_Crear_Alerta</members>
+        <members>Case_Asigna_Tipo_segun_Record_Type</members>
+        <name>Flow</name>
+    </types>
+    <version>57.0</version>
+</Package>

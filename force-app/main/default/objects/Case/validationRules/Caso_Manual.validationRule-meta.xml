@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Caso_Manual</fullName>
+    <active>false</active>
+    <description>Validación sobre caso para que permita crear casos con Origen Manual solo para el perfil Agente ATC.</description>
+    <errorConditionFormula>IF(ISNEW() &amp;&amp; ISPICKVAL( Origin , &apos;Manual&apos;),
+			IF(OR($Profile.Name == &apos;Agente ATC&apos;, $Profile.Name == &apos;Integration User&apos;), 
+						FALSE, TRUE) 
+			, FALSE)</errorConditionFormula>
+    <errorDisplayField>Origin</errorDisplayField>
+    <errorMessage>Origen Manual solo permitido para el perfil Agente ATC.</errorMessage>
+</ValidationRule>

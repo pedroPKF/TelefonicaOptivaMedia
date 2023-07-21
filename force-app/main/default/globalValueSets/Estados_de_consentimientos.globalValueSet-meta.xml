@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>No Informado</fullName>
+        <default>false</default>
+        <label>No Informado</label>
+    </customValue>
+    <customValue>
+        <fullName>Pendiente</fullName>
+        <default>true</default>
+        <label>Pendiente</label>
+    </customValue>
+    <customValue>
+        <fullName>Aceptado</fullName>
+        <default>false</default>
+        <label>Aceptado</label>
+    </customValue>
+    <customValue>
+        <fullName>Rechazado</fullName>
+        <default>false</default>
+        <label>Rechazado</label>
+    </customValue>
+    <masterLabel>Estados de consentimientos</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

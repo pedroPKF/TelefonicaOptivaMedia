@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MlDomain xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Artículos de conocimiento</label>
+    <mlIntents>
+        <developerName>adicionalmente_puede_disponer_de_una_l_nea_m_vil_sin_cuota</developerName>
+        <label>adicionalmente puede disponer de una línea móvil sin cuota</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>servicio adicional</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>admite_tarjeta_de_crecido_o_de_debito</developerName>
+        <label>admite tarjeta de crecido o de debito</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>admite tarjetas bancarias</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>Qué tarjetas admite</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>agrega_tu_DNI</developerName>
+        <label>agrega tu DNI</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>Si meter tu DNI se incluye una línea móvil</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <description>con una promoción de 3 meses</description>
+        <developerName>con_una_promoci_n_de_3_meses</developerName>
+        <label>con una promoción de 3 meses</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>Que regalo tiene la compra de una tarjeta regalo</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>DNI_O_NIE</developerName>
+        <label>DNI O NIE</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>que documentos son validos</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>El_pago_del_servicio_se_realizar_en_el_momento_de_la_suscripci_n</developerName>
+        <label>El pago del servicio se realizará en el momento de la suscripción</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>cuando he hecho el primer pago</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>En_tiendas_Movistar_y_otras_tiendas_como_Game_Mediamark_etc</developerName>
+        <label>En tiendas Movistar y otras tiendas como Game, Mediamark, etc</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>comprar la tarjeta regalo Movistar Plus+ Lite</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>Es_gratuido</developerName>
+        <label>Es gratuido</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>Es gratuito</utterance>
+        </mlIntentUtterances>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>es gratis</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>Las_tarifas_M_viles_Contrato_20_plus_Tarifa_25_Tarifa_15_o_Contrato_Infinito</developerName>
+        <label>Las tarifas Móviles Contrato 20 plus, Tarifa#25, Tarifa#15 o Contrato Infinito</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>que tarifas incluyen</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>la_l_nea_m_vil_es_gratuita</developerName>
+        <label>la línea móvil sin cuota adicional</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>una línea móvil sin cuota adicional si nos das tu DNI</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>mediante_la_tarjeta_de_cr_dito_o_d_bito_Visa_Mastercard</developerName>
+        <label>mediante la tarjeta de crédito o débito (Visa/Mastercard)</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>medios de pago</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>mete_tu_dni</developerName>
+        <label>mete tu dni</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>Movistar Plus+ Lite incluye una línea móvil</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>mismo_m_todo_de_pago_y_el_mismo_d_a_en_que_iniciaste_la_suscripci_n</developerName>
+        <label>mismo método de pago y el mismo día en que iniciaste la suscripción</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>cuando se hace el cobro</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <description>Movistar Plus+ Lite es el servicio de TV de Movistar</description>
+        <developerName>Movistar_Plus_Lite_es_el_servicio_de_TV_de_Movistar</developerName>
+        <label>Movistar Plus+ Lite es el servicio de TV de Movistar</label>
+        <mlIntentUtterances>
+            <language>en_US</language>
+            <utterance>Qué es Movistar Plus+ Lite</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>Movistar_Plus_Lite_es_el_servicio_de_TV_de_Movistar_y_una_l_nea_m_vil</developerName>
+        <label>Movistar Plus+ Lite es el servicio de TV de Movistar y una línea móvil sin cuota</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>Que servicios ofrece</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>Movistar_Plus_Lite_tiene_un_precio_tarifa_de_8_al_mes_IVA_incluido</developerName>
+        <label>Movistar Plus+ Lite tiene un precio tarifa de 8€ al mes (IVA incluido)</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>cuanto cuesta</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>No_es_necesario_el_DNI</developerName>
+        <label>No es necesario el DNI</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>Es necesario el DNI</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>servicio_de_TV_de_Movistar_y_una_l_nea_m_vil_que_no_tiene_cuota</developerName>
+        <label>servicio de TV de Movistar y una línea móvil que no tiene cuota</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>que servicios ofrece</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>tendr_s_una_l_nea_m_vil_adicional</developerName>
+        <label>tendrás una línea móvil adicional</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>si meto mis datos adicional</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>tiene_adicionalmente_un_l</developerName>
+        <label>tiene adicionalmente una línea móvil</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>Servicios adicionales</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+    <mlIntents>
+        <developerName>una_l_nea_m_vil_no_tiene_coste_adicional_si_nos_das_tu_DNI</developerName>
+        <label>una línea móvil no tiene coste adicional si nos das tu DNI</label>
+        <mlIntentUtterances>
+            <language>es</language>
+            <utterance>coste adicional</utterance>
+        </mlIntentUtterances>
+    </mlIntents>
+</MlDomain>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Crear_Alerta__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Si el campo esta desmarcado no se creará alertas a nivel de cuenta</description>
+    <externalId>false</externalId>
+    <label>Crear Alerta</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

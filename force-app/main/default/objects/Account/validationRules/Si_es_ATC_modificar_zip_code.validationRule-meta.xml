@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Si_es_ATC_modificar_zip_code</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(CONTAINS($Profile.Name, &apos;Agente ATC&apos;) &amp;&amp; 
+		ISCHANGED(Codigo_Postal__c), true, false)</errorConditionFormula>
+    <errorDisplayField>Codigo_Postal__c</errorDisplayField>
+    <errorMessage>Privilegios insuficientes para editar el campo</errorMessage>
+</ValidationRule>

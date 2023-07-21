@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Método de pago rechazado</fullName>
+                <default>false</default>
+                <label>Método de pago rechazado</label>
+            </value>
+            <value>
+                <fullName>Caducidad del método de pago</fullName>
+                <default>false</default>
+                <label>Caducidad del método de pago</label>
+            </value>
+            <value>
+                <fullName>Modificación de datos personales desde la zona privada de la web</fullName>
+                <default>false</default>
+                <label>Modificación de datos personales desde la zona privada de la web</label>
+            </value>
+            <value>
+                <fullName>Cambio de correo electrónico</fullName>
+                <default>false</default>
+                <label>Cambio de correo electrónico</label>
+            </value>
+            <value>
+                <fullName>Modificación del medio de pago</fullName>
+                <default>false</default>
+                <label>Modificación del medio de pago</label>
+            </value>
+            <value>
+                <fullName>Baja de cliente</fullName>
+                <default>false</default>
+                <label>Baja de cliente</label>
+            </value>
+            <value>
+                <fullName>Sospecho de identidad suplantada</fullName>
+                <default>false</default>
+                <label>Sospecho de identidad suplantada</label>
+            </value>
+            <value>
+                <fullName>Compra por taquilla</fullName>
+                <default>false</default>
+                <label>Compra por taquilla</label>
+            </value>
+            <value>
+                <fullName>Reactivación de la suscripción</fullName>
+                <default>false</default>
+                <label>Reactivación de la suscripción</label>
+            </value>
+            <value>
+                <fullName>Abono de deuda pendiente</fullName>
+                <default>false</default>
+                <label>Abono de deuda pendiente</label>
+            </value>
+            <value>
+                <fullName>Repudio</fullName>
+                <default>false</default>
+                <label>Repudio</label>
+            </value>
+            <value>
+                <fullName>Baja de suscripcion</fullName>
+                <default>false</default>
+                <label>Baja de suscripción</label>
+            </value>
+            <value>
+                <fullName>Codigo de verificacion</fullName>
+                <default>false</default>
+                <label>Código de verificación</label>
+            </value>
+            <value>
+                <fullName>Error contratación suscripción</fullName>
+                <default>false</default>
+                <label>Error contratación suscripción</label>
+            </value>
+            <value>
+                <fullName>Contratación activada</fullName>
+                <default>false</default>
+                <label>Contratación activada</label>
+            </value>
+            <value>
+                <fullName>Alta de caso</fullName>
+                <default>false</default>
+                <label>Alta de caso</label>
+            </value>
+            <value>
+                <fullName>Apertura de incidencia</fullName>
+                <default>false</default>
+                <label>Apertura de incidencia</label>
+            </value>
+            <value>
+                <fullName>Solicitud de baja</fullName>
+                <default>false</default>
+                <label>Solicitud de baja</label>
+            </value>
+            <value>
+                <fullName>Baja por deuda adquirida</fullName>
+                <default>false</default>
+                <label>Baja por deuda adquirida</label>
+            </value>
+            <value>
+                <fullName>Verificación de email</fullName>
+                <default>false</default>
+                <label>Verificación de email</label>
+            </value>
+            <value>
+                <fullName>Activación de suscripcion</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Activación de suscripcion</label>
+            </value>
+            <value>
+                <fullName>Baja de usuario</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Baja de usuario</label>
+            </value>
+            <value>
+                <fullName>Contratación TVOD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contratación TVOD</label>
+            </value>
+            <value>
+                <fullName>Contratación movistar+lite</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contratación movistar+lite</label>
+            </value>
+            <value>
+                <fullName>Gestión datos económicos</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Gestión datos económicos</label>
+            </value>
+            <value>
+                <fullName>Gestión de contratos</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Gestión de contratos</label>
+            </value>
+            <value>
+                <fullName>Modificación datos usuario</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Modificación datos usuario</label>
+            </value>
+            <value>
+                <fullName>Recuperación de cuenta</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Recuperación de cuenta</label>
+            </value>
+            <value>
+                <fullName>Registros usuarios</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Registros usuarios</label>
+            </value>
+            <value>
+                <fullName>Sospechosa de identidad suplantada</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sospechosa de identidad suplantada</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
